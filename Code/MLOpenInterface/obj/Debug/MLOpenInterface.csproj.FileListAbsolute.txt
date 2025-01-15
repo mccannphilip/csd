@@ -1,0 +1,70 @@
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\obj\Debug\MLOpenInterface.csprojResolveAssemblyReference.cache
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\MLOpenInterface.dll.config
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\MLOpenInterface.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\MLOpenInterface.pdb
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\weka.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.Runtime.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Core.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.XML.API.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Util.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Security.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.SwingAWT.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Remoting.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.Runtime.JNI.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Management.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Text.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Naming.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Beans.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Media.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.AWT.WinForms.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Charsets.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Corba.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Misc.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\obj\Debug\MLOpenInterface.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\obj\Debug\MLOpenInterface.pdb
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.XML.Bind.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.Jdbc.dll
+c:\users\philipmc\documents\visual studio 2013\Projects\MLOpenInterface\MLOpenInterface\bin\IKVM.OpenJDK.XML.Parse.dll
+C:\tmp\MLOpenInterface\MLOpenInterface\bin\MLOpenInterface.dll.config
+C:\tmp\MLOpenInterface\MLOpenInterface\bin\MLOpenInterface.dll
+C:\tmp\MLOpenInterface\MLOpenInterface\bin\MLOpenInterface.pdb
+C:\tmp\MLOpenInterface\MLOpenInterface\obj\Debug\MLOpenInterface.csprojResolveAssemblyReference.cache
+C:\tmp\MLOpenInterface\MLOpenInterface\obj\Debug\MLOpenInterface.dll
+C:\tmp\MLOpenInterface\MLOpenInterface\obj\Debug\MLOpenInterface.pdb
+C:\tmp\MLOpenInterfacex\bin\MLOpenInterface.dll.config
+C:\tmp\MLOpenInterfacex\bin\MLOpenInterface.dll
+C:\tmp\MLOpenInterfacex\bin\MLOpenInterface.pdb
+C:\tmp\MLOpenInterfacex\obj\Debug\MLOpenInterface.csprojResolveAssemblyReference.cache
+C:\tmp\MLOpenInterfacex\obj\Debug\MLOpenInterface.dll
+C:\tmp\MLOpenInterfacex\obj\Debug\MLOpenInterface.pdb
+C:\tmp\MLOpenInterface\bin\MLOpenInterface.dll.config
+C:\tmp\MLOpenInterface\bin\MLOpenInterface.dll
+C:\tmp\MLOpenInterface\bin\MLOpenInterface.pdb
+C:\tmp\MLOpenInterface\obj\Debug\MLOpenInterface.csprojResolveAssemblyReference.cache
+C:\tmp\MLOpenInterface\obj\Debug\MLOpenInterface.dll
+C:\tmp\MLOpenInterface\obj\Debug\MLOpenInterface.pdb
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\MLOpenInterface.dll.config
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\MLOpenInterface.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\MLOpenInterface.pdb
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.Runtime.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Util.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Text.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Security.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.XML.API.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Beans.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Management.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Jdbc.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Remoting.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Media.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.Runtime.JNI.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Naming.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.AWT.WinForms.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Charsets.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Misc.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\bin\IKVM.OpenJDK.Corba.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\obj\Debug\MLOpenInterface.csprojResolveAssemblyReference.cache
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\obj\Debug\MLOpenInterface.dll
+C:\Users\mccan\Desktop\NUIG\csd\Submission\Code\MLOpenInterface\obj\Debug\MLOpenInterface.pdb

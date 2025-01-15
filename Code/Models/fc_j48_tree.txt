@@ -1,0 +1,130 @@
+Classifier Model
+J48 pruned tree
+------------------
+
+response blast <= 0
+|   link into a <= 0
+|   |   care <= 2.628116
+|   |   |   industry <= 0
+|   |   |   |   in your browser <= 0
+|   |   |   |   |   |url| |urljpg| <= 0
+|   |   |   |   |   |   |urlpng| <= 0
+|   |   |   |   |   |   |   give a subscription <= 0
+|   |   |   |   |   |   |   |   recipientcount <= 4
+|   |   |   |   |   |   |   |   |   bulletin <= 0
+|   |   |   |   |   |   |   |   |   |   |urljpg| <= 0
+|   |   |   |   |   |   |   |   |   |   |   |urlgif| |url| <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   friends <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   here |url| <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   the office <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   subjectlength <= 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |url| <= 0: NoSpam (121.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |url| > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   email address <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   textlength <= 165: Spam (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   textlength > 165: NoSpam (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   email address > 0: Spam (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   subjectlength > 8: NoSpam (5044.0/60.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   the office > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emails <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   related <= 0: NoSpam (37.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   related > 0: Spam (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   emails > 0: Spam (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   here |url| > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   experience <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   request <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   clicking here |url| <= 0: NoSpam (57.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   clicking here |url| > 0: Spam (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   request > 0: Spam (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   experience > 0: Spam (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   friends > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   line <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |url| to <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   the office <= 0: NoSpam (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   the office > 0: Spam (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |url| to > 0: Spam (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   line > 0: Spam (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |urlgif| |url| > 0
+|   |   |   |   |   |   |   |   |   |   |   |   was sent to <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   mxl_mta-6 13 <= 0: NoSpam (19.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   mxl_mta-6 13 > 0: Spam (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   was sent to > 0: Spam (2.0)
+|   |   |   |   |   |   |   |   |   |   |urljpg| > 0
+|   |   |   |   |   |   |   |   |   |   |   to view <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   30 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   protection <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   technology and <= 0: NoSpam (29.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   technology and > 0: Spam (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   protection > 0: Spam (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   30 > 0: Spam (3.0)
+|   |   |   |   |   |   |   |   |   |   |   to view > 0: Spam (6.0)
+|   |   |   |   |   |   |   |   |   bulletin > 0
+|   |   |   |   |   |   |   |   |   |   arrivaltime <= 12: NoSpam (17.0/4.0)
+|   |   |   |   |   |   |   |   |   |   arrivaltime > 12: Spam (15.0/5.0)
+|   |   |   |   |   |   |   |   recipientcount > 4
+|   |   |   |   |   |   |   |   |   |urlhtml| <= 0
+|   |   |   |   |   |   |   |   |   |   |url| <= 0: NoSpam (17.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |url| > 0
+|   |   |   |   |   |   |   |   |   |   |   13 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   subject <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   may 2012 <= 0: Spam (14.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   may 2012 > 0: NoSpam (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   subject > 0: Spam (4.0)
+|   |   |   |   |   |   |   |   |   |   |   13 > 0: NoSpam (4.0)
+|   |   |   |   |   |   |   |   |   |urlhtml| > 0: Spam (4.0)
+|   |   |   |   |   |   |   give a subscription > 0
+|   |   |   |   |   |   |   |   arrivaltime <= 9: Spam (22.0/3.0)
+|   |   |   |   |   |   |   |   arrivaltime > 9
+|   |   |   |   |   |   |   |   |   your message <= 0: NoSpam (23.0/1.0)
+|   |   |   |   |   |   |   |   |   your message > 0: Spam (3.0/1.0)
+|   |   |   |   |   |   |urlpng| > 0
+|   |   |   |   |   |   |   |url| |urlgif| <= 0
+|   |   |   |   |   |   |   |   invitation <= 0
+|   |   |   |   |   |   |   |   |   experience <= 0
+|   |   |   |   |   |   |   |   |   |   what you <= 0
+|   |   |   |   |   |   |   |   |   |   |   web <= 0: NoSpam (18.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   web > 0: Spam (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   what you > 0: Spam (2.0)
+|   |   |   |   |   |   |   |   |   experience > 0: Spam (3.0)
+|   |   |   |   |   |   |   |   invitation > 0: Spam (52.0)
+|   |   |   |   |   |   |   |url| |urlgif| > 0: Spam (5.0)
+|   |   |   |   |   |url| |urljpg| > 0
+|   |   |   |   |   |   recipientcount <= 1
+|   |   |   |   |   |   |   preferences <= 0
+|   |   |   |   |   |   |   |   |url| |urlgif| <= 0
+|   |   |   |   |   |   |   |   |   |urljpg| |urljpg| |url| <= 0: NoSpam (18.0)
+|   |   |   |   |   |   |   |   |   |urljpg| |urljpg| |url| > 0
+|   |   |   |   |   |   |   |   |   |   arrivaltime <= 14: Spam (2.0)
+|   |   |   |   |   |   |   |   |   |   arrivaltime > 14: NoSpam (2.0)
+|   |   |   |   |   |   |   |   |url| |urlgif| > 0: Spam (4.0/1.0)
+|   |   |   |   |   |   |   preferences > 0: Spam (3.0)
+|   |   |   |   |   |   recipientcount > 1
+|   |   |   |   |   |   |   | <= 7.367495: Spam (19.0/1.0)
+|   |   |   |   |   |   |   | > 7.367495: NoSpam (3.0)
+|   |   |   |   in your browser > 0
+|   |   |   |   |   federal <= 0
+|   |   |   |   |   |   subscription <= 0
+|   |   |   |   |   |   |   |urljpg| |url| |urljpg| <= 0
+|   |   |   |   |   |   |   |   |url| |urljpg| wnd <= 0: Spam (11.0)
+|   |   |   |   |   |   |   |   |url| |urljpg| wnd > 0
+|   |   |   |   |   |   |   |   |   don <= 0: Spam (10.0/3.0)
+|   |   |   |   |   |   |   |   |   don > 0: NoSpam (2.0)
+|   |   |   |   |   |   |   |urljpg| |url| |urljpg| > 0: NoSpam (2.0)
+|   |   |   |   |   |   subscription > 0: NoSpam (2.0)
+|   |   |   |   |   federal > 0: NoSpam (3.0)
+|   |   |   industry > 0
+|   |   |   |   |url| you <= 0
+|   |   |   |   |   link <= 2.217847: Spam (20.0/2.0)
+|   |   |   |   |   link > 2.217847: NoSpam (2.0)
+|   |   |   |   |url| you > 0: NoSpam (3.0)
+|   |   care > 2.628116
+|   |   |   subscription <= 0
+|   |   |   |   receive <= 0: Spam (22.0/1.0)
+|   |   |   |   receive > 0: NoSpam (2.0)
+|   |   |   subscription > 0: NoSpam (5.0)
+|   link into a > 0: Spam (73.0)
+response blast > 0: Spam (178.0)
+
+Number of Leaves  : 	62
+
+Size of the tree : 	123

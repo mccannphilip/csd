@@ -1,0 +1,16 @@
+@relation C__tmp_csd
+
+@attribute w5 integer
+@attribute recipientcount integer
+@attribute to string
+@attribute subject string
+@attribute text string
+@attribute textlength integer
+@attribute subjectlength integer
+@attribute mailimportance integer
+@attribute attachmentcount integer
+@attribute @@class@@ {Reply,NoReply}
+
+@data
+13,8,'mailtotest1@test.com','subject1','test1',5,8,1,1,Reply
+13,8,'mailtotest2@test.com','subject2','test2',5,8,1,1,NoReply

@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MLOpenInterface.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MLOpenInterface_wsFeature_CSD" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:57772/csp/multimedia/csd.WSService.cls</Value>
+    </Setting>
+    <Setting Name="SpamPredictionEnsembleThreshold" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="ReplyPredictionEnsembleThreshold" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

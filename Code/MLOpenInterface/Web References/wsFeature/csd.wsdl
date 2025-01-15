@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:s0="http://ws.nuig.csd" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://ws.nuig.csd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://ws.nuig.csd">
+      <s:element name="GetFeature">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" name="toAddress" type="s:string" />
+            <s:element minOccurs="0" name="ccAddress" type="s:string" />
+            <s:element minOccurs="0" name="subject" type="s:string" />
+            <s:element minOccurs="0" name="mailbody" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFeatureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element name="GetFeatureResult" type="s0:WSFeature" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSFeature">
+        <s:sequence>
+          <s:element minOccurs="0" name="Mailbox">
+            <s:simpleType>
+              <s:restriction base="s:string">
+                <s:maxLength value="255" />
+              </s:restriction>
+            </s:simpleType>
+          </s:element>
+          <s:element minOccurs="0" name="Subject">
+            <s:simpleType>
+              <s:restriction base="s:string">
+                <s:maxLength value="255" />
+              </s:restriction>
+            </s:simpleType>
+          </s:element>
+          <s:element minOccurs="0" name="Body">
+            <s:simpleType>
+              <s:restriction base="s:string">
+                <s:maxLength value="4000" />
+              </s:restriction>
+            </s:simpleType>
+          </s:element>
+          <s:element minOccurs="0" name="MessageCleanTagged">
+            <s:simpleType>
+              <s:restriction base="s:string">
+                <s:maxLength value="4000" />
+              </s:restriction>
+            </s:simpleType>
+          </s:element>
+          <s:element minOccurs="0" name="FollowUp" type="s:long" />
+          <s:element minOccurs="0" name="MailToCount" type="s:long" />
+          <s:element minOccurs="0" name="MailCCCount" type="s:long" />
+          <s:element minOccurs="0" name="W5" type="s:long" />
+          <s:element minOccurs="0" name="ArrivalTime" type="s:long" />
+          <s:element minOccurs="0" name="Length" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetFeatureSoapIn">
+    <wsdl:part name="parameters" element="s0:GetFeature" />
+  </wsdl:message>
+  <wsdl:message name="GetFeatureSoapOut">
+    <wsdl:part name="parameters" element="s0:GetFeatureResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CSDSoap">
+    <wsdl:operation name="GetFeature">
+      <wsdl:input message="s0:GetFeatureSoapIn" />
+      <wsdl:output message="s0:GetFeatureSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CSDSoap" type="s0:CSDSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetFeature">
+      <soap:operation soapAction="http://ws.nuig.csd/csd.WSService.GetFeature" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CSD">
+    <wsdl:port name="CSDSoap" binding="s0:CSDSoap">
+      <soap:address location="http://localhost:57772/csp/multimedia/csd.WSService.cls" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

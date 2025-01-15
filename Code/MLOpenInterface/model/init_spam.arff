@@ -1,0 +1,17 @@
+@relation C__tmp_csd
+
+@attribute followup {0,1}
+@attribute recipientcount integer
+@attribute to string
+@attribute subject string
+@attribute text string
+@attribute arrivaltime integer
+@attribute textlength integer
+@attribute subjectlength integer
+@attribute mailimportance integer
+@attribute attachmentcount integer
+@attribute @@class@@ {Spam,NoSpam}
+
+@data
+0,1,'mailtotest1@test.com','subject1','test1',9,5,8,1,1,Spam
+0,1,'mailtotest2@test.com','subject2','test1',9,5,8,1,1,NoSpam
